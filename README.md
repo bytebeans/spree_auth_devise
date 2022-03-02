@@ -1,6 +1,7 @@
 # Spree Auth (Devise)
 
-[![CircleCI](https://circleci.com/gh/spree/spree_auth_devise/tree/main.svg?style=svg)](https://circleci.com/gh/spree/spree_auth_devise/tree/main)
+[![Build Status](https://travis-ci.com/spree/spree_auth_devise.svg?branch=main)](https://travis-ci.org/spree/spree_auth_devise)
+[![Code Climate](https://codeclimate.com/github/spree/spree_auth_devise/badges/gpa.svg)](https://codeclimate.com/github/spree/spree_auth_devise)
 
 Provides authentication services for [Spree](https://spreecommerce.org), using the [Devise](https://github.com/plataformatec/devise) gem.
 

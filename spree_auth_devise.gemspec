@@ -2,7 +2,7 @@
 lib = File.expand_path('../lib/', __FILE__)
 $LOAD_PATH.unshift lib unless $LOAD_PATH.include?(lib)
 
-require 'spree/auth/version'
+require 'spree/auth/version.rb'
 
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
@@ -33,7 +33,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'devise', '~> 4.7'
   s.add_dependency 'devise-encryptable', '0.2.0'
 
-  spree_version = '>= 4.3.0.rc1'
+  spree_version = '>= 4.3.0'
   s.add_dependency 'spree_core', spree_version
   s.add_dependency 'spree_extension'
 
